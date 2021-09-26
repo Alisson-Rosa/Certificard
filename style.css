@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+  background: linear-gradient(236.85deg, #041832 30.26%, #3468a7 70.03%);
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  background: #ecf4ff;
+  margin: 64px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  padding: 64px;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+.perfil {
+  display: flex;
+}
+
+.perfil-foto {
+  border-radius: 460px;
+  max-height: 160px;
+  box-shadow: (0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.titulo {
+  margin-left: 16px;
+}
+
+.titulo h1 {
+  font-weight: 700;
+  font-sizy: 36px;
+}
+
+.titulo h3 {
+  font-weight: 400;
+  font-sizy: 24px;
+}
+
+.tema button {
+  align-self: flex-end;
+  font-weight: 400;
+  font-size: 24px;
+  padding: 8px 16px;
+  background: #1c1c1c;
+  color: #ffffff;
+  border-radius: 100px;
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(250.65deg, #363636 27.49%, #dcdcdc 70.19%);
+  margin-top: 32px;
+  padding: 32px;
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+  border-radius: 20px;
+}
+
+.projetos-titulo {
+  list-style: none;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.projetos-item {
+  list-style-type: none;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 50px;
+}
+
+.projetos-item a {
+  color: #1c1c1c;
+  text-decoration: none;
+}
+
+/* .redes {
+  position: absolute;
+  width: 100%;
+  height: 10px;
+  text-align: left;
+  line-height: 100px;
+  font-size: 20px;
+} */
+
+#linkedin {
+  color: #0e76a8;
+  text-decoration: none;
+}
+
+#insta {
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  -webkit-background-clip: text;
+  /* Also define standard property for compatibility */
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.dark {
+  background: linear-gradient(230.65deg, #499cfe 27.49%, #9cc8fc 83.19%);
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+  border-radius: 20px;
+}
+
+.dark .container {
+  background: #333439;
+  color: #f6f6f6;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  border-radius: 20px;
+}
+
+.dark .tema button {
+  align-self: flex-end;
+  font-weight: 400;
+  font-size: 24px;
+  padding: 8px 16px;
+  background: #f8f8ff;
+  color: #1c1c1c;
+  border-radius: 100px;
+}
